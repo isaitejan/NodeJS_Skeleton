@@ -1,0 +1,11 @@
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:543:11)
+    at ServerResponse.header (C:\Users\saiteja\Desktop\Microservices\node_sample_code\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (C:\Users\saiteja\Desktop\Microservices\node_sample_code\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\saiteja\Desktop\Microservices\node_sample_code\node_modules\express\lib\response.js:267:15)
+    at C:\Users\saiteja\Desktop\Microservices\node_sample_code\src\routes\routing.js:6:9
+    at Layer.handle [as handle_request] (C:\Users\saiteja\Desktop\Microservices\node_sample_code\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\saiteja\Desktop\Microservices\node_sample_code\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\saiteja\Desktop\Microservices\node_sample_code\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\saiteja\Desktop\Microservices\node_sample_code\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\saiteja\Desktop\Microservices\node_sample_code\node_modules\express\lib\router\index.js:281:22
